@@ -1,4 +1,4 @@
-                                                PROJECT OVERVIEW
+## PROJECT OVERVIEW
 Slither Link is a modern puzzle game developed by Nikoli. The player is required to find a path around a grid of dots while satisfying various constraints imposed by the puzzle.
 
 A solution to a Slither Link puzzle satisfies two requirements:
@@ -14,13 +14,13 @@ Solution (2)
 In this project my project partner and I wrote an implementation of Slither Link to allow someone to play the game.
 
 
-                                            THE GAME OF SLITHERLINK
+### THE GAME OF SLITHERLINK
 During a game of Slither Link, the player has only one action available: to click the mouse between two dots in the grid, causing a line segment between those two dots to toggle on and off. Try it out at: puzzle-loop.com
 
 The player's goal is to generate a set of line segments that satisfy two requirements: collectively they must form a single closed loop, with no extraneous segments; and every dotted square in the original puzzle must be surrounded by the correct number of segments. Squares that have no dots can have any number of line segments surrounding them.
 
 
-                                            TESTING FOR A SOLUTION
+### TESTING FOR A SOLUTION
 Testing to see whether the current board situation constitutes a solution to a puzzle is quite tricky. We need to check for all four failure modes and to return an error message if any of them applies. This is basically what the class AnalyzeSolution does, with several helper methods as described in the code skeleton.
 
 Use the following algorithm to test a solution. Remember that the puzzle is finished if all squares are individually correct, and all line segments form a single closed loop.
