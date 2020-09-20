@@ -2,13 +2,14 @@
 Slither Link is a modern puzzle game developed by Nikoli. The player is required to find a path around a grid of dots while satisfying various constraints imposed by the puzzle.
 
 A solution to a Slither Link puzzle satisfies two requirements:
-
-Solution (1)
-    All numbers in the puzzle have the right number of line segments surrounding them.
-
-Solution (2)
-    All line segments combine to form a single closed loop.
-
+<ul>
+    <li>Solution (1)
+        All numbers in the puzzle have the right number of line segments surrounding them.
+    </li>
+    <li>Solution (2)
+        All line segments combine to form a single closed loop.
+    </li>
+</ul>
 
 
 In this project my project partner and I wrote an implementation of Slither Link to allow someone to play the game.
