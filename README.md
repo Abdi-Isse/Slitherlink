@@ -12,10 +12,10 @@ To change the theme simply supply either default or dark as a string argument in
 # Game States
 
 ## Intial puzzle (using eg5_2.txt as the puzzle):
-<img src="./images/initial-board.png" />
+<img src="./images/initial-board.png" style="width:250px; height:250px" />
 
 ## Incorrect moves will turn lines around cell Red:
-<img src="./images/invalid-move.png" />
+<img src="./images/invalid-move.png" style="width:250px; height:250px"/>
 
 ## Example of a solved puzzle:
-<img src="./images/win.png" />
+<img src="./images/win.png" style="width:250px; height:250px" />
