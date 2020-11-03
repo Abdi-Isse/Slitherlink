@@ -11,11 +11,11 @@ To change the theme simply supply either default or dark as a string argument in
 
 # Game States
 
-The intial puzzle will look like this (Using the 5x5 puzzle as an example here):
+## Intial puzzle (using eg5_2.txt as the puzzle):
 <img src="./images/initial-board.png" />
 
-If you make an illegal move the board position at that illegal move will look like this:
+## Incorrect moves will turn lines around cell Red:
 <img src="./images/invalid-move.png" />
 
-If you solve the slitherlink puzzle the final game state will look like this:
+## Example of a solved puzzle:
 <img src="./images/win.png" />
