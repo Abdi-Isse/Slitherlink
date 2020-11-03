@@ -1,7 +1,7 @@
 /**
  * Puzzle maintains the internal representation of a square Slither Link puzzle.
  *
- * @author Abdihafith Isse & Abdihasib Isse
+ * @author Abdihafith Isse
  * @version 1.0
  */
  

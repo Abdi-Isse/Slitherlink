@@ -3,7 +3,7 @@
  * AnalyzeSolution methods are used to analyze the state of a Slither Link puzzle, 
  * to determine if the puzzle is finished. 
  * 
- * @author Abdihafith Isse & Abdihasib Isse
+ * @author Abdihafith Isse
  * @version v1.0
  */
  
