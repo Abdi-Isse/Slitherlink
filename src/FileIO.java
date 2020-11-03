@@ -8,6 +8,7 @@
  * filename = "f.txt" 
  * lines = <"abc", "de", "", "gh">
  * 
+ * Lyndon While, 2019
  */
 
 import java.io.*;

@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 /**
  * This class provides unit test cases for the AnalyzeSolution class. 
+ * @author Lyndon While
+ * @version 1.0
  */
 public class ASTest
 {

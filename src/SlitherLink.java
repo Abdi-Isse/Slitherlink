@@ -2,7 +2,7 @@
 /**
 * SlitherLink does the user interaction for a square Slither Link puzzle.
 *
-* @author Abdihafith Isse & Abdihasib Isse
+* @author Abdihafith Isse
 * @version 1.0
 */
 
@@ -53,7 +53,8 @@ public class SlitherLink implements MouseListener
      */
     public static void main(String[] args)
     {
-        Puzzle puzzle = new Puzzle("eg5_1.txt");
+       
+        Puzzle puzzle = new Puzzle("eg5_2.txt");            // The parameter is the game board that will be initialised
         SlitherLink slitherLink = new SlitherLink(puzzle);
     }
     
@@ -68,7 +69,7 @@ public class SlitherLink implements MouseListener
         initSizing(75, 600);
         
         // colours
-        theme("default");
+        theme("dark");       // Takes one of two parameter -- > dark or default
         
         // canvas
         sc = new SimpleCanvas("Slither Link (" + game.size() + "x" + game.size() + ")", windowSize, windowSize, backgroundColor);
